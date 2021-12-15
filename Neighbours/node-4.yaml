@@ -1,0 +1,6 @@
+id: 4
+address: "127.0.1.4"
+neighbours:
+  - id: 2
+    address: "127.0.1.2"
+    edge_weight: 0
