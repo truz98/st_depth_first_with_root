@@ -39,6 +39,11 @@ The program runs in command line.
 python script.py
 ```
 
+## Authors
+
+[Mathieu Lamon](https://github.com/truz98)  
+[Nicolas Feyer](https://github.com/nicolasfeyer)
+
 ## Version History
 
 * 0.1
