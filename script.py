@@ -120,7 +120,7 @@ def send(message, node_src, node_dst):
 
 
 def server(node):
-    # Run until the node has terminated 
+    # Run until the node has terminated
     while not node.terminated:
         # Waiting for a message
         node_src, message = receive(node)
@@ -191,7 +191,8 @@ if __name__ == "__main__":
         neighbours = data[i]['neighbours']
         nodes_neighbours = []
         for neighbour in neighbours:
-            nodes_neighbours.append(nodes[neighbour['id'] - 1])  # Id is 1->n and list is 0->n-1
+            # Id is 1->n and list is 0->n-1
+            nodes_neighbours.append(nodes[neighbour['id'] - 1])
         nodes[i].add_neighbours(nodes_neighbours)
 
     # Start each node in a thread, except root node
