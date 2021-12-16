@@ -15,7 +15,7 @@ and prints traffic in the terminal.
 
 ### Dependencies
 
-* A version of Python >=3.6 is required.
+* A version of Python >=3.10 is required.
 
 * PyYAML is a parser and emmiter for Python.
 He's used to easily read the content of .yaml files.
