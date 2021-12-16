@@ -20,9 +20,13 @@ and prints traffic in the terminal.
 * PyYAML is a parser and emmiter for Python.
 He's used to easily read the content of .yaml files.
 The easiest way to install is via the pip packet manager.
-    ```
-    pip install pyyaml
-    ```
+
+
+All dependecies are listed in the requirements file and can
+be installed with the following command.
+```
+pip install -r "requirements.txt"
+```
 
 ### Installing
 
